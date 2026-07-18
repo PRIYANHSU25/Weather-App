@@ -1,16 +1,47 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive Weather App built with **React**, **Vite**, and **Material UI**. The application allows users to search for any city and view real-time weather information using the **OpenWeather API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🔍 Search weather by city name
+- 🌡️ Displays current temperature
+- 💧 Shows humidity level
+- 📈 Displays minimum and maximum temperature
+- ☁️ Shows weather description
+- 🌤️ Dynamic weather icons based on weather conditions
+- 📱 Responsive and clean user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- Vite
+- JavaScript (ES6+)
+- Material UI (MUI)
+- OpenWeather API
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── components/
+│   ├── SearchBox.jsx
+│   ├── InfoBox.jsx
+│   └── WeatherApp.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+
+
+## 👨‍💻 Author
+
+**Priyanshu**
+
+GitHub: https://github.com/PRIYANHSU25
